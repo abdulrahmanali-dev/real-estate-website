@@ -229,16 +229,17 @@ section {
 .services .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
+  justify-content: center;
 }
 .services .box-container .box {
-  flex: 1 1 300px;
   border-radius: 10px;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   border: solid 2px rgba(0, 0, 0, 0.2);
   text-align: center;
   padding: 20px;
+  max-width: 340px;
 }
 .services .box-container .box h3 {
   color: #333;
@@ -313,6 +314,7 @@ section {
   padding: 8px 12px;
   color: #fff;
   display: flex;
+  align-items: center;
   margin-right: 10px;
   background: rgba(0, 0, 0, 0.13);
 }
@@ -468,6 +470,7 @@ section {
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
+  margin-bottom: 10px;
 }
 .contact .icons-container .icons {
   flex: 1 1 200px;
